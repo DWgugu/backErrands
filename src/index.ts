@@ -88,7 +88,7 @@ app.delete("/user/:userid/errand/:id", [validateIdUser], (request: Request, resp
 
 const port = process.env.PORT || 8080;
 
-app.listen(8080, ()=> {
+app.listen(port, ()=> {
     console.log("Servidor Rodando");    
 });
 
